@@ -12,8 +12,8 @@
 #include "hardware/clocks.h"
 #include "hardware/gpio.h"
 #include "hardware/timer.h"
-#include "inc/ssd1306.h"   // Biblioteca do OLED (conforme seu código)
-#include "ws2818b.pio.h"   // Biblioteca gerada para controle dos NeoPixels
+#include "inc/ssd1306.h"   
+#include "ws2818b.pio.h"   
 
 // ===========================
 // DEFINIÇÕES DO OLED (128x64)
@@ -70,11 +70,6 @@ const int BTN_B = 6;   // Botão B: para finalizar a sequência
 #define LED_RED_PIN 13
 #define LED_BLUE_PIN 12
 #define LED_GREEN_PIN 11
-
-// ===========================
-// DEFINIÇÕES PARA O SINAL DE DIN
-// ===========================
-#define MAX_DELAY_US 8333
 
 // ===========================
 // Mapeamento dos símbolos na matriz (linha por linha)
